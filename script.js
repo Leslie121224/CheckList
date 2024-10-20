@@ -8,7 +8,7 @@ function New_Item_in(){
     Item.innerHTML = `
         <input type= "checkbox" class = "Item_in_Checkbox">
         <label>${Item_in.value}</label>
-        <button class = "Delete_Item_Button">🗑</button>
+        <button class = "Delete_Item_Button">🗑</button>    <!-- Trash can emoji, click to delete the item. -->
     `
     const Delete_Item_Button = Item.querySelector(".Delete_Item_Button");
     const Item_in_Checkbox = Item.querySelector(".Item_in_Checkbox");
